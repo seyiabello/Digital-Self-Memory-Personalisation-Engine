@@ -1,0 +1,40 @@
+{
+  "user_id": "demo_memory",
+  "stable": {
+    "tone": "concise",
+    "interests": [],
+    "dislikes": [],
+    "timezone": "Europe/London",
+    "communication_style": "clear"
+  },
+  "dynamic": {
+    "recent_topics": [
+      "memory",
+      "privacy"
+    ],
+    "current_goals": [],
+    "last_updated": "2026-01-08T00:20:08.912419+00:00"
+  },
+  "profile": {
+    "embedding": null,
+    "embedding_model": "text-embedding-3-small"
+  },
+  "privacy": {
+    "sensitive_keywords": [
+      "password",
+      "bank",
+      "card",
+      "ni number"
+    ],
+    "do_not_store": [
+      "password",
+      "bank",
+      "card",
+      "medical"
+    ],
+    "retention_days": {
+      "short_term": 1,
+      "long_term": 30
+    }
+  }
+}

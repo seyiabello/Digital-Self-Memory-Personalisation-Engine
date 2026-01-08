@@ -1,0 +1,45 @@
+{
+  "user_id": "seyi_sim",
+  "stable": {
+    "tone": "concise",
+    "interests": [],
+    "dislikes": [],
+    "timezone": "Europe/London",
+    "communication_style": "clear"
+  },
+  "dynamic": {
+    "recent_topics": [
+      "memory",
+      "explain your memory system",
+      "remember that i prefer concise answers",
+      "python run.py --user_id seyi_sim --memory_mode stm_ltm",
+      "remember that i prefer concise answers",
+      "bye",
+      "hello"
+    ],
+    "current_goals": [],
+    "last_updated": "2026-01-07T23:41:47.133106+00:00"
+  },
+  "profile": {
+    "embedding": null,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+  },
+  "privacy": {
+    "sensitive_keywords": [
+      "password",
+      "bank",
+      "card",
+      "ni number"
+    ],
+    "do_not_store": [
+      "password",
+      "bank",
+      "card",
+      "medical"
+    ],
+    "retention_days": {
+      "short_term": 1,
+      "long_term": 30
+    }
+  }
+}
