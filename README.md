@@ -33,6 +33,20 @@ No frontend, deployment, or cloud infrastructure is included by design.
 
 ---
 
+## System architecture
+
+The diagram below shows the high-level architecture of the Digital Self Memory & Personalization Engine.
+
+It illustrates how:
+- User input is orchestrated through a single control point
+- The Digital Self mediates memory access via preferences and privacy rules
+- Memory storage and retrieval are selective and explainable
+- Long-term memory influences future responses without raw recall
+
+![System architecture](screenshots/architecturedigital.png)
+
+---
+
 ## Memory architecture
 
 The system implements **three explicit memory layers**:
